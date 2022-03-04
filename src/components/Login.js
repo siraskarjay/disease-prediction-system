@@ -3,7 +3,9 @@ const Login = (props) => {
   return (
     <Container>
       <Content>
+        
         <BgImage />
+       
       </Content>
     </Container>
   );
@@ -42,6 +44,9 @@ const BgImage = styled.div`
   right: 0;
   left: 0;
   z-index: -1;
+  @media (max-width: 768px) {
+   background-position: 10% 10%;
+  }
 `;
 
 
